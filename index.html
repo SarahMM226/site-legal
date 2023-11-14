@@ -19,23 +19,20 @@
         color: green;
         background: lightgreen
 }
-    td {
-        height: 20px;
-        width: 20px;
+    button {
+        height: 30px;
+        width: 50pxpx;
         text-align: center;
         color: black;
         background: green;
 
     }
     
-    td:hover {
+    button:hover {
         background: lightgreen;
         color: white;
         cursor: pointer;
         
-    h5 {
-        border-width: medium;
-        border-color: black;
     }
     
   </style>
@@ -51,23 +48,10 @@
     
     <font face="times"> Gorgeous white cake, with Shrek, puss in boots and Donkey running hapily :) </font>
    
-   <table>
-    <tr>
-    <td onclick = "marcar(this)">■ 👆</td>
-    </tr>
-    
-   </table>
-   <script>
-    var LIKE = "LIKE"
-    function marcar (td){
-       td.innerHTML = LIKE
-       if (LIKE == "LIKE"){
-           LIKE = "■ 👆"
-       }
-       else {
-           LIKE = "LIKE"
-       }
-   }
+    <p><button>LIKE</button>
+   <script></p>
+ 
+ 
    </script>
   </body>
 
