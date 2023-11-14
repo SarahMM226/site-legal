@@ -1,18 +1,74 @@
 <html>
   <head>
     <title>Shrek's_Cakes</title>
-  <style>
-    h1 {
-      background: lightgreen
-      width: 100px;
-      height: 100px;
-      text-alight: center;
+    <style>
+     h1 {
+      text-align: center;
+      color: white;
+      background: lightgreen;
+
     }
+    img{
+        height: 200px;
+        width: 300px
+        
+        
+    }
+    h3 {
+        text-align: center;
+        color: green;
+        background: lightgreen
+}
+    td {
+        height: 20px;
+        width: 20px;
+        text-align: center;
+        color: black;
+        background: green;
+
+    }
+    
+    td:hover {
+        background: lightgreen;
+        color: white;
+        cursor: pointer;
+        
+    h5 {
+        border-width: medium;
+        border-color: black;
+    }
+    
   </style>
-</head>
-<body>
-  <h1>Shrek's Cakes</h1>
-  <p>The beast place to admire these cakes!</p>
-</body>
-  
+  </head>
+  <body>
+    <h1>Shrek's Cakes</h1>
+   
+    <p>The best place to admire these cakes!</p>
+    
+    <img src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUpDg1d4TnYutJPAVfxTS9ySZEMsRd9BbQ2w&usqp=CAU" alt = "va imagem maldita piroca">
+ 
+    <h3>White Shrek's Cake'</h3>
+    
+    <font face="times"> Gorgeous white cake, with Shrek, puss in boots and Donkey running hapily :) </font>
+   
+   <table>
+    <tr>
+    <td onclick = "marcar(this)">■ 👆</td>
+    </tr>
+    
+   </table>
+   <script>
+    var LIKE = "LIKE"
+    function marcar (td){
+       td.innerHTML = LIKE
+       if (LIKE == "LIKE"){
+           LIKE = "■ 👆"
+       }
+       else {
+           LIKE = "LIKE"
+       }
+   }
+   </script>
+  </body>
+
 </html>
